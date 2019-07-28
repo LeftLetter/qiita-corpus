@@ -1,3 +1,6 @@
+# --------------------------------------------------
+# 単語埋め込み情報の獲得
+# --------------------------------------------------
 import pprint
 from gensim.models.fasttext import FastText
 from gensim.models import Word2Vec
