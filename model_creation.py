@@ -1,3 +1,6 @@
+# --------------------------------------------------
+# モデルの作成
+# --------------------------------------------------
 from gensim.models.fasttext import FastText
 from gensim.models import word2vec, Word2Vec
 
