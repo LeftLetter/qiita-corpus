@@ -1,0 +1,27 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+pylint = "*"
+autopep8 = "*"
+rope = "*"
+
+[packages]
+requests = "*"
+bs4 = "*"
+gensim = "*"
+mecab-python3 = "*"
+jaconv = "*"
+
+[requires]
+python_version = "3.7"
+
+[scripts]
+api = "python qiita_api_client.py"
+text = "python json_to_text.py"
+wakati = "python text_to_wakati.py"
+pre = "python preprocessing.py"
+model = "python model_creation.py"
+similar = "python word_embeding.py"
